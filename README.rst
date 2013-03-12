@@ -2,6 +2,8 @@
     PTO
 ===========
 
+*Easy timeouts for Python*
+
 PTO is a simple library to make it easy to impose time limits on the
 runtime of a function that doesn't expose that functionality itself. I
 was inspired by a need to prevent a scheduled job from running too long
