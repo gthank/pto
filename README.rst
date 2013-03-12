@@ -4,11 +4,11 @@
 
 *Easy timeouts for Python*
 
-PTO is a simple library to make it easy to impose time limits on the
-runtime of a function that doesn't expose that functionality itself. I
-was inspired by a need to prevent a scheduled job from running too long
-on a platform where I was paying by the hour. Maybe you just need to
-wrap a flaky network call. Either way, it's as simple as::
+PTO is an MIT-licensed library to make it easy to impose time limits on
+the runtime of a function that doesn't expose that functionality itself.
+I was inspired by a need to prevent a scheduled job from running too
+long on a platform where I was paying by the hour. Maybe you just need
+to wrap a flaky network call. Either way, it's as simple as::
 
     >>> from pto import time_out
     >>> @time_out(30)
