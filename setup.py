@@ -9,9 +9,6 @@ except ImportError:
     from distutils.core import setup
 
 
-import pto
-
-
 if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     sys.exit()
@@ -20,7 +17,7 @@ requires = ['decorator']
 
 setup(
     name='pto',
-    version=pto.__version__,
+    version='0.0.3',
     description='Timeouts for arbitrary Python functions.',
     long_description=open('README.rst').read(),
     author='Hank Gay',
