@@ -21,13 +21,13 @@ requires = ['decorator']
 setup(
     name='pto',
     version=pto.__version__,
-    description='Easy timeouts for Python.',
+    description='Timeouts for arbitrary Python functions.',
     long_description=open('README.rst').read(),
     author='Hank Gay',
     author_email='hank.gay@gmail.com/',
     packages=['pto',],
     install_requires=requires,
-    license=open('LICENSE.txt').read(),
+    license='MIT License',
     zip_safe=False,
     classifiers=(
         'Development Status :: 2 - Pre-Alpha',
