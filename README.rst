@@ -59,6 +59,16 @@ But, you really shouldn't do that.
 History
 =======
 
+0.0.4 (2013-03-13)
+------------------
+
+* Embed license on PyPI page.
+
+0.0.3 (2013-03-13)
+------------------
+
+* First version that pip can actually install.
+
 0.0.2 (2013-03-12)
 ------------------
 
