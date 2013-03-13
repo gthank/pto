@@ -10,9 +10,9 @@ I was inspired by a need to prevent a scheduled job from running too
 long on a platform where I was paying by the hour. Maybe you just need
 to wrap a flaky network call. Either way, it's as simple as::
 
-    >>> from pto import time_out
-    >>> @time_out(30)
-    ... def slow_func():
+    >>> from pto import timeout
+    >>> @timeout(30)
+    >>> def slow_func():
     ...     while True:
     ...         pass
     ...
