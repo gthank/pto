@@ -43,6 +43,15 @@ This only works on Unix-like platforms. Sorry, Windows users. I'd love
 to support Windows, but the secret sauce (``signal.alarm`` from the std
 lib) doesn't work on Windows.
 
+This isn't really designed to play well with threads, because only the
+main thread will receive signals in Python. Anyway, if you're using
+threads, you probably have other ways to handle timeouts.
+
+If you want to put timeouts on static methods or class methods, you need
+to put the timeout on the method first, and then decorate the wrapped
+method with ``@staticmethod`` or ``@classmethod``. There are examples in
+``test_pto.py``.
+
 Installation
 ============
 
