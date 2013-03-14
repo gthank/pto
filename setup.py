@@ -17,7 +17,7 @@ requires = ['decorator']
 
 setup(
     name='pto',
-    version='0.0.5',
+    version='0.0.6',
     description='Timeouts for arbitrary Python functions.',
     long_description=open('README.rst').read(),
     author='Hank Gay',

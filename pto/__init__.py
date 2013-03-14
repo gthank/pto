@@ -49,7 +49,7 @@ As a function
 :license: MIT, see LICENSE.txt for more details
 """
 __title__ = 'PTO'
-__version__ = '0.0.5'
+__version__ = '0.0.6'
 __author__ = 'Hank Gay'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2013 Hank Gay'

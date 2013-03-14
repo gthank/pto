@@ -72,6 +72,15 @@ But, you really shouldn't do that.
 History
 =======
 
+0.0.6 (2013-03-13)
+------------------
+
+* Add unit-testing
+* Enable Travis-CI
+* Add some more caveats/gotchas to README.rst
+* Update sample usage
+* Update trove classifiers
+
 0.0.5 (2013-03-13)
 ------------------
 
