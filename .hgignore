@@ -3,3 +3,5 @@ syntax: glob
 dist
 MANIFEST
 pto.egg-info
+.coverage
+htmlcov
