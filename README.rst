@@ -11,19 +11,19 @@ long on a platform where I was paying by the hour. Maybe you just need
 to wrap a flaky network call. Either way, it's as simple as::
 
     >>> from pto import timeout
-    >>> @timeout(30)
-    >>> def slow_func():
+    >>> @timeout(5)
+    ... def slow_func():
     ...     while True:
     ...         pass
     ...
     >>> slow_func()
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
-      File "<string>", line 2, in foo
-      File "pto.py", line 65, in _timeout
+      File "<string>", line 2, in slow_func
+      File "pto/__init__.py", line 97, in _timeout
         result = f(*args, **kwargs)
       File "<stdin>", line 3, in slow_func
-      File "pto.py", line 57, in handle_timeout
+      File "pto/__init__.py", line 89, in handle_timeout
         raise TimedOutException
     pto.TimedOutException: u'Timed Out'
 
