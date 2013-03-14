@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """Tests for PTO."""
-import unittest
+import unittest2 as unittest
 
 
 import pto

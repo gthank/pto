@@ -14,6 +14,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 requires = ['decorator']
+test_requires = ['unittest2']
 
 setup(
     name='pto',
@@ -24,6 +25,8 @@ setup(
     author_email='hank.gay@gmail.com/',
     packages=['pto',],
     install_requires=requires,
+    test_requires=test_requires,
+    test_suite='unittest2.collector',
     license=open('LICENSE.txt').read(),
     zip_safe=False,
     classifiers=(
