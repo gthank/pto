@@ -52,6 +52,10 @@ to put the timeout on the method first, and then decorate the wrapped
 method with ``@staticmethod`` or ``@classmethod``. There are examples in
 ``test_pto.py``.
 
+I am pretty sure that the lib works in Python 2.4, but I don't have an
+install around to test that. If anybody wants to volunteer to verify the
+lib on 2.4, please contact me.
+
 Installation
 ============
 
@@ -67,15 +71,6 @@ But, you really shouldn't do that.
 
 History
 =======
-
-0.0.6 (2013-03-13)
-------------------
-
-* Add unit-testing
-* Enable Travis-CI
-* Add some more caveats/gotchas to README.rst
-* Update sample usage
-* Update trove classifiers
 
 0.0.5 (2013-03-13)
 ------------------
