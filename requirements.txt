@@ -1,4 +1,2 @@
 # Stuff we need at runtime.
 decorator==3.4.0
-# Stuff we need for testing.
-unittest2==0.5.1
