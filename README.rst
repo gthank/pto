@@ -4,6 +4,9 @@
 
 *Easy timeouts for Python*
 
+.. image:: https://travis-ci.org/gthank/pto.png?branch=master
+    :alt: Status Image
+
 PTO is an MIT-licensed library to make it easy to impose time limits on
 the runtime of a function that doesn't expose that functionality itself.
 I was inspired by a need to prevent a scheduled job from running too
