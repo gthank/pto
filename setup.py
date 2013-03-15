@@ -18,7 +18,7 @@ test_requires = ['unittest2']
 
 setup(
     name='pto',
-    version='0.0.6',
+    version='0.0.7',
     description='Timeouts for arbitrary Python functions.',
     long_description=open('README.rst').read(),
     author='Hank Gay',

@@ -75,6 +75,13 @@ But, you really shouldn't do that.
 History
 =======
 
+0.0.7 (2013-03-14)
+------------------
+* Enhanced ignores
+* Enable setup.py test
+* Customize dependencies for Python 3 vs. Python 2
+* Add Travis-CI status image to README.rst
+
 0.0.6 (2013-03-13)
 ------------------
 
