@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """Tests for PTO."""
-import unittest2 as unittest
+import sys
+
+
+if sys.version_info[0] >= 3:
+    import unittest
+else:
+    import unittest2 as unittest
 
 
 import pto
